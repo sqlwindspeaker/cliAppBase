@@ -1,0 +1,31 @@
+2016/11/13 14:17:29 [error] [php] Invalid argument supplied for foreach() (/Users/Qilong/Workspace/investment/code/yii/framework/YiiBase.php:411)
+Stack trace:
+#0 /Users/Qilong/Workspace/investment/code/yii/framework/console/CConsoleCommandRunner.php(166): require_once()
+#1 /Users/Qilong/Workspace/investment/code/yii/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#2 /Users/Qilong/Workspace/investment/code/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /Users/Qilong/Workspace/investment/code/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /Users/Qilong/Workspace/investment/code/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /Users/Qilong/Workspace/investment/code/cli/protected/yiic.php(7): require_once()
+#6 /Users/Qilong/Workspace/investment/code/cli/protected/yiic(4): require_once()
+
+2016/11/13 14:23:48 [error] [php] Invalid argument supplied for foreach() (/Users/Qilong/Workspace/investment/code/yii/framework/YiiBase.php:411)
+Stack trace:
+#0 /Users/Qilong/Workspace/investment/code/yii/framework/console/CConsoleCommandRunner.php(166): require_once()
+#1 /Users/Qilong/Workspace/investment/code/yii/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#2 /Users/Qilong/Workspace/investment/code/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /Users/Qilong/Workspace/investment/code/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /Users/Qilong/Workspace/investment/code/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /Users/Qilong/Workspace/investment/code/cli/protected/yiic.php(7): require_once()
+#6 /Users/Qilong/Workspace/investment/code/cli/protected/yiic(4): require_once()
+
+2016/11/13 14:43:38 [error] [php] Invalid argument supplied for foreach() (/Users/Qilong/Workspace/investment/code/yii/framework/YiiBase.php:411)
+Stack trace:
+#0 unknown(0): GetAllFundsCommand->actionGetAllFunds()
+#1 /Users/Qilong/Workspace/investment/code/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#2 /Users/Qilong/Workspace/investment/code/yii/framework/console/CConsoleCommandRunner.php(71): GetAllFundsCommand->run()
+#3 /Users/Qilong/Workspace/investment/code/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /Users/Qilong/Workspace/investment/code/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#5 /Users/Qilong/Workspace/investment/code/yii/framework/yiic.php(33): CConsoleApplication->run()
+#6 /Users/Qilong/Workspace/investment/code/cli/protected/yiic.php(7): require_once()
+#7 /Users/Qilong/Workspace/investment/code/cli/protected/yiic(4): require_once()
+
